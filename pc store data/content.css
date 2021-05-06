@@ -1,0 +1,70 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 588px; 
+  border-top: 5px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+.Promo{
+	position: absolute;
+	width: 560px;
+	height: 70px;
+	background-color: red;
+	text-align: center;
+
+}
+.Promo p {
+	font-size: 50px;
+	margin:0px;
+	padding: 5px;
+	letter-spacing: 3px;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+.btn {
+	float: right; 
+	width: 70px; 
+	height: 50px; 
+	border:none; 
+	color:#ffffff; 
+	font-size:25px; 
+	background-color:#ff0000; 
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #660000;
+	color:  #ffffff;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #bfbfbf, 0 0 20px #bfbfbf, 0 0 30px #bfbfbf, 0 0 40px #bfbfbf, 0 0 50px #bfbfbf, 0 0 60px #bfbfbf, 0 0 70px #bfbfbf;
+  }
+  to {
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
+  }
+
